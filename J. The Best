@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long A,B,C,D;
+    cin>>A>>B>>C>>D;
+    long long a = min(A,min(min(B,C),D));
+    if((A==a && B==a)||(A==a && C==a)||(A==a && D==a)||(B==a && C==a)||(B==a && D==a)||(C==a && D==a)){
+            cout<<"Equal";
+       }else if(a==A){
+            cout<<"A";
+       }else if(a==B){
+            cout<<"B";
+       }else if(a==C){
+            cout<<"C";
+       }else if(a==D){
+            cout<<"D";
+       }
+}
