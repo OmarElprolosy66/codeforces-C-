@@ -1,0 +1,11 @@
+#include <iostream>
+#include <list>
+using namespace std;
+
+int main() {
+    string months[13] = {"ther is no month number 0","January", "February", "March", "April", "May", "June", "July", "August", "September",
+                         "October", "November", "December"};
+    short N;
+    cin>>N;
+    cout<< months[N];
+}
